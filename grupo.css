@@ -1,0 +1,265 @@
+.barra{
+
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.barra header{
+
+    max-width: 1100px;
+    display: solid;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+
+}
+
+.barra header .pag a{
+
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.barra header ul{
+
+    display: flex;
+    list-style: none;
+}
+
+.barra header nav ul li a{
+
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+.inicio{
+
+    display: flex;
+    background-size: cover;
+    font-size: 35px;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+}
+
+.inicio .pagprincipal ul li{
+
+    margin: 70px;
+    
+    
+}
+
+
+
+
+.inte{
+
+    display: flex;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.inte h1{
+    font-size: 50px;
+}
+
+.inte .fer{
+
+    display: flex;
+    border: 2px solid red;
+    margin-left: 50px;
+    width: 115px;
+    height: 150px;
+    
+
+}
+
+.inte .manu{
+
+    display: flex;
+    border: 2px solid red;
+    margin-left: 50px;
+    width: 113px;
+    height: 150px;
+}
+
+.inte .grego{
+
+    display: flex;
+    border: 2px solid red;
+    margin-left: 50px;
+    width: 115px;
+    height: 150px;
+}
+
+.dos .links{
+
+    display: flex;
+    margin-left: 800px;
+    margin-top: -700px;
+    flex-direction: column;
+    
+    
+
+}
+
+.links .uno{
+    display: flex;
+    margin-top: 150px;
+    
+}
+
+.links .dos{
+    display: flex;
+    margin-top: 150px;
+}
+
+.links .tres{
+    display: flex;
+    margin-top: 150px;
+}
+
+.sitiowe{
+    
+    margin: 250px;
+    font-size: 30px;
+    
+}
+
+.sitiowe .propuestas{
+    margin: 100px;
+}
+
+.sitiowe .titulo{
+    margin: 100px;
+}
+
+.sitiowe .desc{
+    margin: 100px;
+}
+
+
+.avance{
+    margin-top: 300px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.sitioweb{
+    margin-top: 300px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width:320px){
+    #nav ul{
+        display: block;
+    }
+  
+    .inicio .pagprincipal{
+        width: 100%;
+        display: block;
+    }
+
+    .inicio .pagprincipal ul{
+        width: 110%;
+        display: block;
+    }
+    
+    .avance{
+        display: block;
+        width: 80%;
+    }
+    
+    .avance h1{
+        width: fit-content;
+        display: block;
+    }
+
+    .sitio{
+        display: block;
+    }
+    .sitio .sitiowe{
+        display: block;
+        width: 100%;
+    }
+
+    .sitio .sitiowe #nav ul{
+        display: block;
+        width: 190%;
+    }
+    .sitioweb{
+        display: block;
+    }
+
+    .sitioweb h1{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+  
+
+    /*
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: left;
+    }
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen  .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
