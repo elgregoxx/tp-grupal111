@@ -67,26 +67,25 @@
 
 .inte{
 
-    display: flex;
-    background-size: cover;
-    align-items: flex-start;
-    justify-content: space-between;
+    display: block;
     font-size: 15px;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 200px;
+    margin-left: 50px;
+    
 }
 
 .inte h1{
-    font-size: 50px;
+    font-size: 20px;
+    justify-content: center;
+    
 }
 
 .inte .fer{
 
     display: flex;
-    border: 2px solid red;
-    margin-left: 50px;
-    width: 115px;
-    height: 150px;
+    
+    width: 100px;
+    height: 100px;
     
 
 }
@@ -94,27 +93,26 @@
 .inte .manu{
 
     display: flex;
-    border: 2px solid red;
-    margin-left: 50px;
-    width: 113px;
-    height: 150px;
+    
+    width: 100px;
+    height: 100px;
 }
 
 .inte .grego{
 
     display: flex;
-    border: 2px solid red;
-    margin-left: 50px;
-    width: 115px;
-    height: 150px;
+    
+    width: 100px;
+    height: 100px;
 }
 
 .dos .links{
 
     display: flex;
-    margin-left: 800px;
-    margin-top: -700px;
+    
+    margin-top: -850px;
     flex-direction: column;
+    margin-left: 50px;
     
     
 
@@ -122,18 +120,18 @@
 
 .links .uno{
     display: flex;
-    margin-top: 150px;
+    margin-top: 850px;
     
 }
 
 .links .dos{
     display: flex;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 .links .tres{
     display: flex;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 .sitiowe{
@@ -166,91 +164,58 @@
     margin-top: 300px;
     font-size: 30px;
     margin-left: 50px;
+    
 }
 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:740px){
     #nav ul{
         display: block;
     }
-  
     .inicio .pagprincipal{
-        width: 100%;
+        width: -150px;
+        font-size: 20px;
         display: block;
     }
 
-    .inicio .pagprincipal ul{
-        width: 110%;
-        display: block;
-    }
-    
     .avance{
         display: block;
-        width: 80%;
-    }
-    
-    .avance h1{
-        width: fit-content;
-        display: block;
+        font-size: 20px;
     }
 
-    .sitio{
+    .sitioweb{
         display: block;
+        font-size: 20px;
     }
-    .sitio .sitiowe{
-        display: block;
-        width: 100%;
+
+    .inte{
+        font-size: 10px;
+    
     }
 
     .sitio .sitiowe #nav ul{
-        display: block;
-        width: 190%;
+        display: inline-block;
+        margin-left: -320px;
+        
     }
-    .sitioweb{
+    
+    .sitio .sitiowe .propuestas{
         display: block;
+        font-size: 15px;
+
     }
 
-    .sitioweb h1{
+    .sitio .sitiowe .titulo{
         display: block;
-        width: 100%;
+        font-size: 15px;
     }
 
-}
-
-  
-
-    /*
-    .habilidades .contenido-seccion .fila .col{
-        width: 100%;
-        text-align: left;
-    }
-    .habilidades .contenido-seccion .fila{
+    .sitio .sitiowe .desc{
         display: block;
+        font-size: 15px;
     }
-    .sobremi .contenido-seccion .fila .col{
-        width: 80%;
-        margin: auto;
-        margin-top: 20px;
-    }
-    .resumen .contenido-seccion .info{
-        display: block;
-    }
-    .resumen  .contenido-seccion .info .col{
-        width: 90%;
-        margin: auto;
-    }
-    .resumen .contenido-seccion .info .col .titulo{
-        display: block;
-        text-align: center;
-    }
-    .resumen .contenido-seccion .info .col table{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    .contacto .contenido-seccion .fila{
-        display: block;
-    }
-
+    
+    
 }
 
 
